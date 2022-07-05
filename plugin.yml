@@ -4,4 +4,12 @@ main: LC\LobbyCore
 version: 1.0
 api: 4.0.0
 author: JuanantonioVYT
+
+permissions:
+  lobbycore.use.fly:
+    default: op
+  fly.cmd:
+    default: op   
+  lobbycore.use.size:
+    default: op
 ---

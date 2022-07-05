@@ -67,6 +67,10 @@ class EventListener implements Listener{
             $this->openCosmetics($player);
         }
         if($itn == "Informacion"){
+            if ($player->hasPermission("lobbycore.use.cosmetics")){
+            } else {
+                $player->sendMessage(MG:: RED . "You not have permissions to use cosmetics");
+            }
             $this->openInfo($player);
         }
     }
@@ -116,10 +120,20 @@ class EventListener implements Listener{
             }
             switch($data){
                 case 0:
+                    if ($player->hasPermission("lobbycore.use.fly")){
+                    } else {
+                        $player->sendMessage(MG:: RED . "You not have permissions to use cosmetics fly");
+                    }
                     $this->FlyForm($player);
                 break;
                 case 1:
+                    if ($player->hasPermission("lobbycore.use.size")){
+                    } else {
+                        $player->sendMessage(MG::RED . "You not have permissions to use this cosmetics fly");
+                    }
                     $this->SizeForm($player);
+                break;
+                case 3:
                 break;
             }
         });

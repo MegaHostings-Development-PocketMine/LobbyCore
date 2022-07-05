@@ -10,7 +10,7 @@ LobbyCore Configurable API 4.0.0 For MegaHosting Community
 - Protection Added
 - Items Added
 - Join And Quit Added
-- Menus configurable
+- Menus configurable Added
 
 # Permissions
 

@@ -8,8 +8,8 @@ author: JuanantonioVYT
 permissions:
   lobbycore.use.fly:
     default: op
-  fly.cmd:
-    default: op   
   lobbycore.use.size:
+    default: op   
+  lobbycore.use.cosmetics:
     default: op
 ---
